@@ -1,0 +1,22 @@
+D:\Documents\homework\c#\PyramidCard\bin\Debug\PyramidCard.exe.config
+D:\Documents\homework\c#\PyramidCard\bin\Debug\PyramidCard.exe
+D:\Documents\homework\c#\PyramidCard\bin\Debug\PyramidCard.pdb
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.csprojAssemblyReference.cache
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.Properties.Resources.resources
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.csproj.GenerateResource.cache
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.csproj.CoreCompileInputs.cache
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.exe
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.pdb
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.PyramidForm.resources
+D:\Documents\homework\c#\PyramidCard\obj\Debug\PyramidCard.StrangeForm.resources
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\bin\Debug\PyramidCard.exe.config
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\bin\Debug\PyramidCard.exe
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\bin\Debug\PyramidCard.pdb
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.csprojAssemblyReference.cache
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.PyramidForm.resources
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.Properties.Resources.resources
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.StrangeForm.resources
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.csproj.GenerateResource.cache
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.csproj.CoreCompileInputs.cache
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.exe
+E:\Tencent Files\1512376287\软件构造基础\PyramidCard\obj\Debug\PyramidCard.pdb

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B8EBB065-F608-46BD-835A-F07B8F3C7975}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PyramidCard</RootNamespace>
+    <AssemblyName>PyramidCard</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="PyramidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PyramidForm.Designer.cs">
+      <DependentUpon>PyramidForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pyramid.cs" />
+    <Compile Include="PyramidCheck.cs" />
+    <Compile Include="PyramidChessboard.cs" />
+    <Compile Include="CardPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StrangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="PyramidForm.resx">
+      <DependentUpon>PyramidForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StrangeForm.resx">
+      <DependentUpon>StrangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\club13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\diamond13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\heart13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\spade13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\beipan_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\taoyuan_bg.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
